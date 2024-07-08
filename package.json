@@ -44,8 +44,7 @@
     "build": "tsc",
     "prepublishOnly:esm": "tsc -p tsconfig.json",
     "prepublishOnly:cjs": "tsc -p tsconfig-cjs.json",
-    "prepublishOnly": "npm run prepublishOnly:esm && npm run prepublishOnly:cjs",
-    "postinstall": "tsc -p tsconfig-cjs.json"
+    "prepublishOnly": "npm run prepublishOnly:esm && npm run prepublishOnly:cjs"
   },
   "repository": {
     "type": "git",

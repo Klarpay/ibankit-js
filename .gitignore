@@ -40,4 +40,4 @@ config/conf/local.json
 config/conf/local.js
 
 # Ignore gnerated files
-/lib/
+#/lib/
